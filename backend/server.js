@@ -3,7 +3,7 @@ import cors from 'cors';
 import dotenv from 'dotenv';
 import ConnectDB from './config/Database.js';
 import cloudinaryConfig from './config/cloudinary.js';
-import UserRoute from './routes/Userroute.js';
+import UserRoute from './routes/UserRoute.js';
 import ProductRouter from './routes/ProductRouter.js';
 import cartroute from './routes/Cartroute.js';
 import OrderRoute from './routes/OrderRoute.js';
